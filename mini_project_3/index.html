@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="amazon-header">
+      <div class="header-top">
+        <div class="header-left">
+          <a href="#" class="logo">
+            <img src="image/navlogo.png" alt="Amazon" />
+            <span class="in">.in</span>
+          </a>
+          <div class="location">
+            <span class="deliver-to">Deliver to Address</span>
+
+            <span class="location-text"
+              ><i class="fa-solid fa-location-dot"></i> Chennai,Tamilnadu
+            </span>
+          </div>
+        </div>
+        <div class="header-middle">
+          <div class="search-bar">
+            <select class="search-category">
+              <option value="smartwatches">Smartwatches</option>
+              <option value="electronics">Electronics</option>
+              <option value="Books">Books</option>
+              <option value="Baby">Baby</option>
+              <option value="Beauty">Beauty</option>
+              <option value="Groceries">Groceries</option>
+              <option value="Garden items">Garden items</option>
+              <option value="Wall decor items">Wall decor items</option>
+            </select>
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search here..."
+            />
+            <button class="search-button">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+        <div class="header-right">
+          <div class="language">
+            <i class="fas fa-globe"></i>
+            <span>EN</span>
+          </div>
+          <div class="account">
+            <span>Hello, sign in</span>
+            <span>Account & Lists</span>
+          </div>
+          <div class="returns">
+            <span>Returns</span>
+            <span>& Orders</span>
+          </div>
+          <a href="#" class="cart">
+            <i class="fas fa-shopping-cart"></i>
+            <span>Cart</span>
+          </a>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="bottom-nav">
+          <a href="#" class="all">
+            <i class="fas fa-bars"></i>
+            <span>All</span>
+          </a>
+          <a href="#">Fresh</a>
+          <a href="#">MX Player</a>
+          <a href="#">Sell</a>
+          <a href="#">Bestsellers</a>
+          <a href="#">Today's Deals</a>
+          <a href="#">Mobiles</a>
+          <a href="#">Fashion</a>
+          <a href="#">Customer Service</a>
+          <a href="#">Prime</a>
+          <a href="#">New Releases</a>
+          <a href="#">Electronics</a>
+          <a href="#">Home & Kitchen</a>
+          <a href="#">Amazon Pay</a>
+          <a href="#">Car & Motorbike</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN LAYOUT -->
+    <div class="page-wrapper">
+      <!-- Sidebar Filters -->
+      <aside class="sidebar">
+        <h2>Filters</h2>
+        <div class="filter-group">
+          <h3>Delivery Day</h3>
+          <label><input type="checkbox" /> Get it Today</label>
+          <label><input type="checkbox" /> Get it by Tomorrow</label>
+          <label><input type="checkbox" /> Get it in 2 Days</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Category</h3>
+          <label><input type="checkbox" /> Electronics</label>
+          <label><input type="checkbox" /> Clothing</label>
+          <label><input type="checkbox" /> Home</label>
+          <label><input type="checkbox" /> Books</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Deals & Discounts</h3>
+          <label><input type="checkbox" /> All Discounts</label>
+          <label><input type="checkbox" /> Today's Deals</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Price</h3>
+          <label><input type="radio" name="price" /> Under $25</label>
+          <label><input type="radio" name="price" /> $25 to $50</label>
+          <label><input type="radio" name="price" /> $50 to $100</label>
+          <label><input type="radio" name="price" /> $100 & Above</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Rating</h3>
+          <label><input type="checkbox" /> ⭐⭐⭐⭐ & up</label>
+          <label><input type="checkbox" /> ⭐⭐⭐ & up</label>
+          <label><input type="checkbox" /> ⭐⭐ & up</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Brands</h3>
+          <label><input type="checkbox" />Amazefit</label>
+          <label><input type="checkbox" />Garmin</label>
+          <label><input type="checkbox" /> Noise</label>
+          <label><input type="checkbox" />Fire-Boltt</label>
+          <label><input type="checkbox" /> HUAWEI</label>
+          <label><input type="checkbox" />Fastrack</label>
+          <label><input type="checkbox" />Fitbit</label>
+          <select class="search-category">
+            <option value="see more">see more</option>
+            <option value="boAt">boAt</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Redmi">Redmi</option>
+            <option value="Pebble">Pebble</option>
+            <option value="Sekyo">Sekyo</option>
+            <option value="Maxima">Maxima</option>
+            <option value="FCUK">FCUK</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <h3>Shape</h3>
+          <label><input type="checkbox" /> Octagonal</label>
+          <label><input type="checkbox" /> Ovel</label>
+          <label><input type="checkbox" /> Rectangular</label>
+          <label><input type="checkbox" /> Round</label>
+          <label><input type="checkbox" />Square</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Special Features</h3>
+          <label><input type="checkbox" /> Activity Tracker</label>
+          <label><input type="checkbox" />Alaram Clock</label>
+          <label><input type="checkbox" /> Camara</label>
+          <label><input type="checkbox" />GPS</label>
+          <label><input type="checkbox" />Notifications</label>
+          <label><input type="checkbox" />Phone Call</label>
+          <label><input type="checkbox" />Text Messaging</label>
+          <select class="search-category">
+            <option value="see more">see more</option>
+            <option value="Voice Call">Voice Call</option>
+            <option value="Time Display">Time Display</option>
+            <option value="Music Player">Music Player</option>
+            <option value="cycle Tracking">cycle Tracking</option>
+            <option value="Email">Email</option>
+            <option value="Gusture Control">Gusture Control</option>
+            <option value="Light Weight">Light Weight</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <h3>Display Type</h3>
+          <label><input type="checkbox" /> AMOLED</label>
+          <label><input type="checkbox" />Analog</label>
+          <label><input type="checkbox" /> Analog-Digital</label>
+          <label><input type="checkbox" />LCD</label>
+          <label><input type="checkbox" />LED</label>
+          <label><input type="checkbox" />OLED</label>
+          <label><input type="checkbox" />Digital</label>
+          <label><input type="checkbox" />No-Display</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Computers & Accessories Brand</h3>
+          <label><input type="checkbox" /> Made For Amazon</label>
+          <label><input type="checkbox" /> Top Brands</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Brand Meterial Type</h3>
+          <label><input type="checkbox" />Silicone</label>
+          <label><input type="checkbox" />Stainless Steal</label>
+          <label><input type="checkbox" /> Faux Leather</label>
+          <label><input type="checkbox" />Fluoroelastomer</label>
+          <label><input type="checkbox" /> Leather</label>
+          <label><input type="checkbox" />Nylon</label>
+          <label><input type="checkbox" />Resin</label>
+          <select class="search-category">
+            <option value="see more">see more</option>
+            <option value="Ruber">Ruber</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <h3>Target Audience</h3>
+          <label><input type="checkbox" />Boys</label>
+          <label><input type="checkbox" />Men</label>
+          <label><input type="checkbox" /> Unisex Adults</label>
+          <label><input type="checkbox" />Women</label>
+          <label><input type="checkbox" /> Baby Boys</label>
+          <label><input type="checkbox" />Baby Girls</label>
+          <label><input type="checkbox" />Girls</label>
+          <select class="search-category">
+            <option value="see more">see more</option>
+            <option value="Unisex Babies">Unisex Babies</option>
+            <option value="Unisex Kids">Unisex Kids</option>
+            <option value="Unisex Youth">Unisex Youth</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <h3>Baterry Average Life</h3>
+          <label><input type="checkbox" /> Up to 166 h</label>
+          <label><input type="checkbox" /> 167 to 203 h</label>
+          <label><input type="checkbox" /> 204 to 240 h</label>
+          <label><input type="checkbox" /> 241 & Above</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Pay On Delivery</h3>
+          <label><input type="checkbox" /> Eligible for Pay On Delivery</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Pay On Delivery</h3>
+          <label> last 30 Days</label>
+          <label>last 90 Days</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Compatable Devices</h3>
+          <label><input type="checkbox" /> Laptop</label>
+          <label><input type="checkbox" /> PC</label>
+          <label><input type="checkbox" /> Smart Phone</label>
+          <label><input type="checkbox" /> Tablet</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Style</h3>
+          <label><input type="checkbox" />Casual</label>
+          <label><input type="checkbox" /> Classic</label>
+          <label><input type="checkbox" /> Hybrid</label>
+          <label><input type="checkbox" /> Minimalist</label>
+          <label><input type="checkbox" /> Modern</label>
+          <label><input type="checkbox" /> Retro</label>
+          <label><input type="checkbox" /> Tactical</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Clasp Type</h3>
+          <label><input type="checkbox" />Deployent Clasp</label>
+          <label><input type="checkbox" /> Hidden Clasp</label>
+          <label><input type="checkbox" /> Hybrid</label>
+          <label><input type="checkbox" /> Hook Buckle</label>
+          <label><input type="checkbox" /> Push Button Deployant Clasp</label>
+          <label><input type="checkbox" /> Single Pusher Foldover Clasp</label>
+          <label><input type="checkbox" /> Tang Buckle</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Availability</h3>
+          <label><input type="checkbox" /> Include Out of Stock</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>GPS</h3>
+          <label><input type="checkbox" />Build-in GPS</label>
+          <label><input type="checkbox" /> GPS via Smartphone</label>
+          <label><input type="checkbox" /> No GPS</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Sports Type</h3>
+          <label><input type="checkbox" />Badminton</label>
+          <label><input type="checkbox" /> Basket Ball</label>
+          <label><input type="checkbox" /> Boating</label>
+          <label><input type="checkbox" /> Canioeing</label>
+          <label><input type="checkbox" /> Cycling</label>
+          <label><input type="checkbox" /> Diving</label>
+          <select class="search-category">
+            <option value="see more">see more</option>
+            <option value="Foot Ball">Foot Ball</option>
+            <option value="Golf">Golf</option>
+            <option value="Hiking">Hiking</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <h3>Water Resistence Level</h3>
+          <label><input type="checkbox" />Not Water Resisitance</label>
+          <label><input type="checkbox" /> Water Repellment</label>
+          <label><input type="checkbox" /> Water Resisitant</label>
+          <label><input type="checkbox" /> Water Proof</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Weight</h3>
+          <label><input type="checkbox" />Up to 84.9 g</label>
+          <label><input type="checkbox" /> 85.0 to 169.9 g</label>
+          <label><input type="checkbox" /> 170.0 to 254.9 g</label>
+          <label><input type="checkbox" /> 255.0 & Above</label>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <div class="product-grid">
+          <!-- Product Card -->
+          <div class="product-card">
+            <div class="image">
+              <img src="image/Product1.jpg" alt="Product Image" />
+            </div>
+            <div class="details">
+              <h3 class="title">
+                Fossil Gen 6 Smart Watch Digital Black Dail Men's Watch -
+                FTW4060
+              </h3>
+              <div class="rating">⭐⭐⭐⭐☆ (4.0 out of 5)</div>
+              <p class="price">$49.99</p>
+              <p class="description">
+                FREE delivery <b>Fri, 16 May</b> Or fastest delivery Tomorrow,
+                <b>15 May</b>
+              </p>
+
+              <div class="controls">
+                <label for="quantity">Qty:</label>
+                <select id="quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">❤️ Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="image">
+              <img src="image/Product2.jpg" alt="Product Image" />
+            </div>
+            <div class="details">
+              <h3 class="title">
+                Noice Twist Round Dial Smart Watch with Bluetooth Calling, 1.38"
+                TFT Display Up-to 7 Days Baterry,100+ watch Faces
+              </h3>
+              <div class="rating">⭐️⭐️⭐️☆ ☆ (3.0 out of 5)</div>
+              <p class="price">$53.99</p>
+              <p class="description">
+                FREE delivery <b>Fri, 16 May</b> Or fastest delivery Tomorrow,
+                <b>15 May</b>
+              </p>
+
+              <div class="controls">
+                <label for="quantity">Qty:</label>
+                <select id="quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">❤️ Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="image">
+              <img src="image/Product3.jpg" alt="Product Image" />
+            </div>
+            <div class="details">
+              <h3 class="title">
+                Boat Storm Call 3 w/Turn-by-Turn Navigation,1.83" (4.6 cm) HD
+                Display, Bluetooth Calling,Crest+ OS,QR Tray.
+              </h3>
+              <div class="rating">⭐️⭐️⭐️☆ ☆ (3.0 out of 5)</div>
+              <p class="price">$59.99</p>
+              <p class="description">
+                FREE delivery <b>Fri, 16 May</b> Or fastest delivery Tomorrow,
+                <b>15 May</b>
+              </p>
+
+              <div class="controls">
+                <label for="quantity">Qty:</label>
+                <select id="quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">❤️ Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="image">
+              <img src="image/Product4.jpg" alt="Product Image" />
+            </div>
+            <div class="details">
+              <h3 class="title">
+                itel ICON-2 Smartwatch with BT Calling, 1.83" HD Display with a
+                550 nits Peak Brightness, Functional Crown, IP68, 150+ Watch
+                Faces.
+              </h3>
+              <div class="rating">⭐⭐⭐⭐☆ (4.0 out of 5)</div>
+              <p class="price">$43.99</p>
+              <p class="description">
+                FREE delivery <b>Fri, 16 May</b> Or fastest delivery Tomorrow,
+                <b>15 May</b>
+              </p>
+
+              <div class="controls">
+                <label for="quantity">Qty:</label>
+                <select id="quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">❤️ Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="image">
+              <img src="image/Product5.jpg" alt="Product Image" />
+            </div>
+            <div class="details">
+              <h3 class="title">
+                Boat Wave Sigma 3 w/Turn-by-Turn Navigation, 2.01" (5.1 cm) HD
+                Display, Bluetooth Calling, Crest+ OS, QR Tray
+              </h3>
+              <div class="rating">⭐️⭐️⭐️☆ ☆ (3.0 out of 5)</div>
+              <p class="price">$63.99</p>
+              <p class="description">
+                FREE delivery <b>Fri, 16 May</b> Or fastest delivery Tomorrow,
+                <b>15 May</b>
+              </p>
+
+              <div class="controls">
+                <label for="quantity">Qty:</label>
+                <select id="quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">❤️ Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="image">
+              <img src="image/Product6.jpg" alt="Product Image" />
+            </div>
+            <div class="details">
+              <h3 class="title">
+                Amazfit Active 2 44mm AMOLED Smart Watch, Built in GPS, 10day
+                Battery, 5ATM Water Resistant, for iOS & Android, Accurate
+                Readings
+              </h3>
+              <div class="rating">⭐⭐⭐⭐☆ (4.0 out of 5)</div>
+              <p class="price">$39.99</p>
+              <p class="description">
+                FREE delivery <b>Fri, 16 May</b> Or fastest delivery Tomorrow,
+                <b>15 May</b>
+              </p>
+
+              <div class="controls">
+                <label for="quantity">Qty:</label>
+                <select id="quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">❤️ Wishlist</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="image">
+              <img src="image/Product7.jpg" alt="Product Image" />
+            </div>
+            <div class="details">
+              <h3 class="title">
+                Fire-Boltt Ninja Call Pro Max Smart Watch 2.01 inch Display,
+                Bluetooth Calling, 120+ Sports Modes, Health Suite, Voice
+                Assistance (Black SS)
+              </h3>
+              <div class="rating">⭐⭐⭐⭐☆ (4.0 out of 5)</div>
+              <p class="price">$55.99</p>
+              <p class="description">
+                FREE delivery <b>Fri, 16 May</b> Or fastest delivery Tomorrow,
+                <b>15 May</b>
+              </p>
+
+              <div class="controls">
+                <label for="quantity">Qty:</label>
+                <select id="quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">❤️ Wishlist</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="image">
+              <img src="image/Product8.jpg" alt="Product Image" />
+            </div>
+            <div class="details">
+              <h3 class="title">
+                Fastrack New Limitless Classic|Large 1.91" Super UltraVU
+                Display|Functional Crown|Highest 320x385 Pixel
+                Resolution|SingleSync BT Calling|100+ Sports Modes
+              </h3>
+              <div class="rating">⭐️⭐️⭐️☆ ☆ (3.0 out of 5)</div>
+              <p class="price">$49.99</p>
+              <p class="description">
+                FREE delivery <b>Fri, 16 May</b> Or fastest delivery Tomorrow,
+                <b>15 May</b>
+              </p>
+
+              <div class="controls">
+                <label for="quantity">Qty:</label>
+                <select id="quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">❤️ Wishlist</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="image">
+              <img src="image/Product9.jpg" alt="Product Image" />
+            </div>
+            <div class="details">
+              <h3 class="title">
+                Withings ScanWatch Nova Brilliant, Heart Health Hybrid Unisex
+                Smartwatch- ECG, SPO2, Temperature Monitoring, Sleep,
+                Respiratory Health
+              </h3>
+              <div class="rating">⭐⭐⭐⭐☆ (4.0 out of 5)</div>
+              <p class="price">$35.99</p>
+              <p class="description">
+                FREE delivery <b>Fri, 16 May</b> Or fastest delivery Tomorrow,
+                <b>15 May</b>
+              </p>
+
+              <div class="controls">
+                <label for="quantity">Qty:</label>
+                <select id="quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">❤️ Wishlist</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="image">
+              <img src="image/Product10.jpg" alt="Product Image" />
+            </div>
+            <div class="details">
+              <h3 class="title">
+                Fastrack Astor FR2 Pro Smart Watch, 1.43” AMOLED Display, 466 *
+                466 Pixel Resolution, SingleSync BT Calling, AI Voice Assistant
+              </h3>
+              <div class="rating">⭐️⭐️⭐️☆ ☆ (3.0 out of 5)</div>
+              <p class="price">$59.99</p>
+              <p class="description">
+                FREE delivery <b>Fri, 16 May</b> Or fastest delivery Tomorrow,
+                <b>15 May</b>
+              </p>
+
+              <div class="controls">
+                <label for="quantity">Qty:</label>
+                <select id="quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">❤️ Wishlist</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="image">
+              <img src="image/Product11.jpg" alt="Product Image" />
+            </div>
+            <div class="details">
+              <h3 class="title">
+                Boult Drift+ Smart Watch 1.85''HD Screen, Bluetooth Calling,
+                IP68, 500 Nits Brightness,150+ Watchfaces, AI Voice Assistant
+              </h3>
+              <div class="rating">⭐⭐⭐⭐☆ (4.0 out of 5)</div>
+              <p class="price">$62.99</p>
+              <p class="description">
+                FREE delivery <b>Fri, 16 May</b> Or fastest delivery Tomorrow,
+                <b>15 May</b>
+              </p>
+
+              <div class="controls">
+                <label for="quantity">Qty:</label>
+                <select id="quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">❤️ Wishlist</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="image">
+              <img src="image/Product12.jpg" alt="Product Image" />
+            </div>
+            <div class="details">
+              <h3 class="title">
+                Titan Smart 3 Premium Smart Watch, 1.96" Super AMOLED Display
+                with 410x502 Pixel Resolution, SingleSync BT Calling, 110+
+                Sports Modes, 200+ Smartwatch Faces
+              </h3>
+              <div class="rating">⭐⭐⭐⭐☆ (4.0 out of 5)</div>
+              <p class="price">$57.99</p>
+              <p class="description">
+                FREE delivery <b>Fri, 16 May</b> Or fastest delivery Tomorrow,
+                <b>15 May</b>
+              </p>
+
+              <div class="controls">
+                <label for="quantity">Qty:</label>
+                <select id="quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">❤️ Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="image">
+              <img src="image/Product13.jpg" alt="Product Image" />
+            </div>
+            <div class="details">
+              <h3 class="title">
+                Fire-Boltt Talk Bluetooth Calling Smartwatch, 1.39" TFT Display
+                with Dual Button, Hands On Voice Assistance, 120 Sports Modes,
+                in Built Mic & Speaker (Talk, Wine)
+              </h3>
+              <div class="rating">⭐⭐⭐⭐☆ (4.0 out of 5)</div>
+              <p class="price">$55.99</p>
+              <p class="description">
+                FREE delivery <b>Fri, 16 May</b> Or fastest delivery Tomorrow,
+                <b>15 May</b>
+              </p>
+
+              <div class="controls">
+                <label for="quantity">Qty:</label>
+                <select id="quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">❤️ Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="image">
+              <img src="image/Product14.jpg" alt="Product Image" />
+            </div>
+            <div class="details">
+              <h3 class="title">
+                Fire-Boltt Ninja Call Pro Max Smart Watch 2.01 inch Display,
+                Bluetooth Calling, 120+ Sports Modes, Health Suite, Voice
+                Assistance
+              </h3>
+              <div class="rating">⭐️⭐️⭐️☆ ☆ (3.0 out of 5)</div>
+              <p class="price">$52.99</p>
+              <p class="description">
+                FREE delivery <b>Fri, 16 May</b> Or fastest delivery Tomorrow,
+                <b>15 May</b>
+              </p>
+
+              <div class="controls">
+                <label for="quantity">Qty:</label>
+                <select id="quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">❤️ Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="image">
+              <img src="image/Product15.jpg" alt="Product Image" />
+            </div>
+            <div class="details">
+              <h3 class="title">
+                Fire-Boltt Ring X Smartwatch 2.01” Display with Always On
+                Display, Bluetooth Calling, Wireless Charging, AI Voice
+                Assistant, 100+ Sports Modes
+              </h3>
+              <div class="rating">⭐⭐⭐⭐☆ (4.0 out of 5)</div>
+              <p class="price">$69.99</p>
+              <p class="description">
+                FREE delivery <b>Fri, 16 May</b> Or fastest delivery Tomorrow,
+                <b>15 May</b>
+              </p>
+
+              <div class="controls">
+                <label for="quantity">Qty:</label>
+                <select id="quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">❤️ Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="image">
+              <img src="image/Product16.jpg" alt="Product Image" />
+            </div>
+            <div class="details">
+              <h3 class="title">
+                Noise Pulse 2 Max 1.85" Display, Bluetooth Calling Smart Watch,
+                10 Days Battery, 550 NITS Brightness, Smart DND, 100 Sports
+                Modes
+              </h3>
+              <div class="rating">⭐️⭐️⭐️☆ ☆ (3.0 out of 5)</div>
+              <p class="price">$49.99</p>
+              <p class="description">
+                FREE delivery <b>Fri, 16 May</b> Or fastest delivery Tomorrow,
+                <b>15 May</b>
+              </p>
+
+              <div class="controls">
+                <label for="quantity">Qty:</label>
+                <select id="quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">❤️ Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="image">
+              <img src="image/Product17.jpg" alt="Product Image" />
+            </div>
+            <div class="details">
+              <h3 class="title">
+                Noise Diva Smartwatch for Women with Diamond Cut Dial, Glossy
+                Metallic Finish, AMOLED Display, New Metal Straps, 100+ Watch
+                Faces
+              </h3>
+              <div class="rating">⭐⭐⭐⭐☆ (4.0 out of 5)</div>
+              <p class="price">$37.99</p>
+              <p class="description">
+                FREE delivery <b>Fri, 16 May</b> Or fastest delivery Tomorrow,
+                <b>15 May</b>
+              </p>
+
+              <div class="controls">
+                <label for="quantity">Qty:</label>
+                <select id="quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">❤️ Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="image">
+              <img src="image/Product18.jpg" alt="Product Image" />
+            </div>
+            <div class="details">
+              <h3 class="title">
+                Fastrack New Astor FS1 PRO Smart Watch, Large Super AMOLED
+                Display (1.97") AOD, AI Voice Assistance, Functional Crown,
+                SingleSync BT Calling
+              </h3>
+              <div class="rating">⭐️⭐️⭐️☆ ☆ (3.0 out of 5)</div>
+              <p class="price">$46.99</p>
+              <p class="description">
+                FREE delivery <b>Fri, 16 May</b> Or fastest delivery Tomorrow,
+                <b>15 May</b>
+              </p>
+
+              <div class="controls">
+                <label for="quantity">Qty:</label>
+                <select id="quantity">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+
+              <div class="buttons">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">❤️ Wishlist</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <div class="pagination">
+      <button class="pagination-button previous">
+        <i class="fas fa-chevron-left"></i> Previous
+      </button>
+      <span class="pagination-numbers">
+        <a href="#" class="pagination-number active">1</a>
+        <a href="#" class="pagination-number">2</a>
+        <a href="#" class="pagination-number">3</a>
+        <span class="pagination-ellipsis">...</span>
+        <a href="#" class="pagination-number">20</a>
+      </span>
+      <button class="pagination-button next">
+        Next <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <!-- FOOTER -->
+<footer class="amazon-footer">
+    <div class="footer-top">
+        <a href="#">Back to Top</a>
+    </div>
+    <div class="footer-middle">
+        <div class="footer-section">
+            <h2>Get to Know Us</h2>
+            <ul>
+                <li><a href="#">About Amazon</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press Releases</a></li>
+                <li><a href="#">Amazon Science</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h2>Connect with Us</h2>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h2>Make Money with Us</h2>
+            <ul>
+                <li><a href="#">Sell on Amazon</a></li>
+                <li><a href="#">Sell under Amazon Accelerator</a></li>
+                <li><a href="#">Protect and Build Your Brand</a></li>
+                <li><a href="#">Amazon Global Selling</a></li>
+                <li><a href="#">Supply to Amazon</a></li>
+                <li><a href="#">Become an Affiliate</a></li>
+                <li><a href="#">Fulfilment by Amazon</a></li>
+                <li><a href="#">Advertise Your Products</a></li>
+                <li><a href="#">Amazon Pay on Merchants</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h2>Let Us Help You</h2>
+            <ul>
+                <li><a href="#">Your Account</a></li>
+                <li><a href="#">Returns Centre</a></li>
+                <li><a href="#">Recalls and Product Safety Alerts</a></li>
+                <li><a href="#">100% Purchase Protection</a></li>
+                <li><a href="#">Amazon App Download</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="footer-logo-language">
+            <a href="#" class="footer-logo">
+                <img src="image/navlogo.png" alt="Amazon">
+            </a>
+            <div class="footer-language-country">
+                <div class="language-select">
+                    <i class="fas fa-globe"></i>
+                    <select>
+                        <option>English</option>
+                        <option>हिन्दी</option>
+                        <option>मराठी</option>
+                        <option>தமிழ்</option>
+                        <option>తెలుగు</option>
+                        <option>മലയാളം</option>
+                        <option>বাংলা</option>
+                        <option>ಕನ್ನಡ</option>
+                    </select>
+                </div>
+                <span class="country-name">
+                    <i class="flag-icon flag-icon-in"></i>
+                    India
+                </span>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+        </div>
+        <div class="footer-links-bottom">
+            <ul>
+                <li><a href="#">AbeBooks</a></li>
+                <li><a href="#">Amazon Web Services</a></li>
+                <li><a href="#">Audible</a></li>
+                <li><a href="#">IMDb</a></li>
+                <li><a href="#">Shopbop</a></li>
+                <li><a href="#">Amazon Business</a></li>
+                <li><a href="#">Prime Now</a></li>
+                <li><a href="#">Amazon Prime Music</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+  </body>
+</html>
