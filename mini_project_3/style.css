@@ -173,7 +173,7 @@ body {
     font-size: 1.1em;
 }
 
-/* Responsive adjustments */
+/* Responsive adjustments For Header*/
 @media (max-width: 768px) {
     .header-top {
         flex-wrap: wrap;
@@ -299,7 +299,10 @@ body {
   flex-direction: column;
   transition: transform 0.2s ease;
 }
-
+.product-card:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
 
 .image img {
   width: 100%;
@@ -385,7 +388,7 @@ body {
   background-color: #e7e7e7;
 }
 
-/* Responsive */
+/* Responsive For Slide Bar And Main Content */
 @media (max-width: 768px) {
   .page-wrapper {
     flex-direction: column;
@@ -607,7 +610,7 @@ body {
     margin: 0 10px 8px;
 }
 
-/* Responsive adjustments */
+/* Responsive adjustments For Footer*/
 @media (max-width: 768px) {
     .footer-middle {
         flex-direction: column;
