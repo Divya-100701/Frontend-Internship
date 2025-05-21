@@ -378,6 +378,7 @@ text-align: center;
 font-size: 1em;
 margin-bottom: 25px;
 line-height: 1.6;
+text-align: center;
 }
 .para{
 margin-top: 20px;
@@ -916,13 +917,9 @@ nav a {
     font-size: 2em;
     text-align: center;
 }
-.content-img5 p{
+.content-img5 p, .content-img6 p, .content-img7 p, .content-img8 p{
   text-align: center;
   margin-left: 20px;
-}
-.content-img6 p, .content-img7 p, .content-img8 p{
-  margin-left: 20px;
-  text-align: center;
 }
 .content-img5 button{
   margin-bottom: 50px;
