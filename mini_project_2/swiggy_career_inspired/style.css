@@ -33,6 +33,7 @@
         color:#5c5a5a;
         align-items: center;
         padding: 10px 20px;
+        margin-right: 3px;
         text-decoration: none;
         font-weight: 350;
         font-size: 1.0rem;
@@ -243,7 +244,6 @@
 .jobs-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 6vw;
     margin-top: 2vh;
     padding: 3vw;
 
@@ -251,7 +251,11 @@
 
 .job-card {
     padding: 2vw;
+    padding-right: 1vw;
+    margin: 20px;
+    margin-right: 0;
     text-align: left;
+    position: relative;
 }
 
 .job-card:hover {
