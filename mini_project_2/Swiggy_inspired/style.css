@@ -161,6 +161,7 @@ body {
     font-size: 1.1em;
     color: #333;
     flex-grow: 1;
+    padding-left: 10px;
 }
 
 .search-input button {
@@ -369,9 +370,12 @@ body {
     max-width: 1200px;
     margin: 20px auto 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+}
+.dineout-restaurants .arrow:hover{
+    background-color: #e0e0e0;
 }
 
 .dineout-restaurants .arrow {
